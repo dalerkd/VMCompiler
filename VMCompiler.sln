@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VMCompiler", "VMCompiler\VM
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Arithmetic", "Arithmetic\Arithmetic.vcxproj", "{340C5FD8-5E5E-4C94-B37E-BA34559E8A9B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{340C5FD8-5E5E-4C94-B37E-BA34559E8A9B}.Release|x64.Build.0 = Release|x64
 		{340C5FD8-5E5E-4C94-B37E-BA34559E8A9B}.Release|x86.ActiveCfg = Release|Win32
 		{340C5FD8-5E5E-4C94-B37E-BA34559E8A9B}.Release|x86.Build.0 = Release|Win32
+		{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}.Debug|x64.ActiveCfg = Debug|x64
+		{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}.Debug|x64.Build.0 = Debug|x64
+		{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}.Debug|x86.Build.0 = Debug|Win32
+		{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}.Release|x64.ActiveCfg = Release|x64
+		{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}.Release|x64.Build.0 = Release|x64
+		{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}.Release|x86.ActiveCfg = Release|Win32
+		{7D76EC30-1331-4A2C-AEE2-4FF7F8F06647}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

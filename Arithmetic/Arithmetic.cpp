@@ -10,6 +10,22 @@
 #include  "EXCEP.h"
 
 
+
+/*
+ * 根据以下三条写成.
+1)       Term=<数字> | “(“ Exp “)”
+
+2)       Factor = Term ( ( “*” | “/” ) Term)*
+
+3)       Exp = Factor ( ( “+” | “-“ ) Factor)*
+
+产生式:
+http://www.cppblog.com/vczh/archive/2008/06/15/53373.html
+ *
+ *
+ */
+
+
 bool g_OPEN_LOG = true;
 
 class Four_Oper_Analy
